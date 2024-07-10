@@ -1,0 +1,115 @@
+/* General Navbar styling */
+.navbar {
+    width: 99.5%;
+    padding: 20px 0px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Styling for the top part of the navbar */
+  .navbar-top {
+    width: 100%;
+    background-color: #008080; /* Adjust color as needed */
+    padding: 10px 0;
+    text-align: center;
+    font-size: 16px;
+    border-bottom: 1px solid #e7e7e7;
+    color: #fff; /* Adjust text color as needed */
+  }
+  
+  /* Styling for the bottom part of the navbar */
+  .navbar-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    width: 100%;
+    box-sizing: border-box; /* Ensures padding does not affect the total width */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .navbar-bottom .logo {/* Adjust as needed */
+    width: 150px;
+  }
+  
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    color: #49557e;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+      }
+  
+  .navbar-menu li {
+    display: inline;
+    cursor: pointer;
+  }
+  
+  .navbar-menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+  }
+  
+  .navbar-search-login {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .navbar-search-login input {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .navbar-right button {
+    padding: 5px 10px;
+    border: 1px solid tomato;
+    border-radius: 50px;
+    cursor: pointer;
+    background: transparent;
+    font-size: 16px;
+    color: #49557e;
+    transition: 0;
+  }
+
+  .navbar-bottom:hover{
+    background-color: #f8f8f8;
+  }
+  
+  .navbar-right a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+  }
+  .navbar .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid #49557e;
+  }
+
+  .navbar-search .navbar-right {
+    position: relative;
+
+  }
+
+  .navbar-right .dot{
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    background-color: tomato;
+    border-radius: 5px;
+    top: -8px;
+    right: -8px;
+
+  }
+  
